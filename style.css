@@ -1,0 +1,240 @@
+.navbar .container{
+    padding: 20px 0;
+}
+.navbar a{
+    font-weight: 700;
+    font-size: 14px;
+    color:#000000;
+    padding-bottom: 35px;
+}
+section.manage h2{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #000000;
+    font-family: 'Nanum Myeongjo', serif;
+}
+section.manage p{
+    font-size: 12px;
+    word-spacing: 1px;
+}
+section.manage .btn{
+    border: 1px solid #967B7A;
+    border-radius: 50px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+section.manage .btn:hover{
+    background-color: #967B7A;
+    color: white;
+}
+section.manage .img-top::before{
+    content: url(img/element/Group\ 2.png);
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+section.manage .bef::before{
+    content: url(img/element/header-elem.png);
+    top: 5%;
+    left: 5%;
+    z-index: -1;
+    position: absolute;
+
+}
+/* numbers */
+section.numbers{
+    padding: 30px;
+}
+section.numbers h4{
+    color: #7B5242;
+    font-weight: 800;
+    margin-right: 20px;
+}
+section.numbers h4 span{
+    color:black;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+/* app */
+section.app{
+    padding: 80px 0;
+    /* background: #FEF6F4; */
+}
+section.app img{
+    position: absolute;
+    right: 70px;
+    top: -80px;
+}
+section.app .sec-1, .sec-2,.sec-3{
+    position: relative;
+    padding-top: 30px;
+}
+section.app i{
+    position: absolute;
+    top: 25px;
+    left: -100px;
+    color: #7B5242;
+    background:#FBDABF;
+    font-size: 24px;
+    border-radius: 50px;
+    padding: 15px;
+}
+section.app .sec-1::before{
+    content: url(img/element/Path\ 21.png);
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    top: 60px;
+    left: -73px;
+    opacity: 0.25;
+
+}
+section.app .sec-2::before{
+    content: url(img/element/Path\ 21.png);
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    top: 60px;
+    left: -73px;
+    opacity: 0.75;
+
+}
+section.app h4{
+    position: absolute;
+    left: -90px;
+    top: -30px;
+    color: #000000;
+    font-weight: 700;
+}
+
+section.app h6, section.app p{
+    color: #000000;
+    font-weight: 600;
+}
+section.screenshot{
+    padding: 60px 0;
+}
+/* screenshot */
+section.screenshot{
+    background-color: #FEF6F4;
+}
+.section-padding{
+	width:1170px;
+	margin: 0 auto;
+	padding:80px 0;
+
+}
+
+.owl-item .item {
+   transform: translate3d(0, 0, 0); /* DO NOT REMEMBER WHERE TU PUT THIS, SEARCH FOR 3D ACCELERATION */
+   transform: scale(0.9);
+
+   transition: all .25s ease-in-out;
+  margin: 50px 0; /* OVERWRITE PLUGIN MARGIN */
+ }
+
+.screenshot_slider .owl-item .item img {
+    -webkit-transition: 0.3s;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    transform: scale(0.80);
+}
+
+.screenshot_slider .owl-item.center .item img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.screenshot_slider .owl-nav {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.screenshot_slider .owl-nav button {
+	font-size: 24px !important;
+	margin: 10px;
+	color: #033aff !important;
+}
+/* footer */
+section.footer{
+    background-color: #FEF6F4;
+}
+section.footer p{
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1;
+    margin-bottom: 10px;
+}
+section.footer  a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+section.footer .details i{
+    margin-top: 10px;
+}
+section.footer h4{
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+section.footer ul li{
+    list-style: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+section.footer .list-3 i{
+    padding-right: 10px;
+    color: #7B5242;
+    font-size: 20px;
+}
+footer{
+    background-color: #FEF6F4;
+    padding: 60px 0;
+}
+footer::before{
+    content: "";
+    position: absolute;
+    border: 0.5px solid black;
+    width: 75%;
+    right: 60px;
+    left: 140px;
+    opacity: 0.5;
+}
+footer p{
+    color: #000000;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    top:40px;
+    right:120px;
+    left: 0;
+    font-weight: 600;
+}
+/* section.screenshot .image{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+section.screenshot img{
+    width: 100px;
+    height: 100px;
+} */
+
+.frame{
+    position: absolute;
+    right: 50%;
+    width: 270px;
+}
